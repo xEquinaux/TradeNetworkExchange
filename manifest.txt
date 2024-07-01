@@ -1,0 +1,6 @@
+﻿# Trade Network Exchange
+## 7/1/2024
+
+## Premise
+Build a trade lobby server that handles item transfer interactions.
+Buy and sell items via an in-game lobby client.

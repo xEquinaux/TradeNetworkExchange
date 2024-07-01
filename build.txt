@@ -1,0 +1,3 @@
+displayName = Trade Network Exchange
+author = Duze
+version = 1.0

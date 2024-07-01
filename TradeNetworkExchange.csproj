@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- Import tModLoader mod properties -->
+	<Import Project="..\tModLoader.targets" />
+
+	<!-- General -->
+	<PropertyGroup>
+		
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="manifest.txt" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Include="cotf-revised_launcher">
+	    <HintPath>..\..\..\..\..\..\source\repos\cotf-revised\bin\Release\net6.0\cotf-revised_launcher.dll</HintPath>
+	  </Reference>
+	  <Reference Include="tUserInterface">
+	    <HintPath>..\..\..\..\..\..\source\repos\cotf-remix\lib\tUserInterface.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+	<!-- References -->
+
+</Project>
